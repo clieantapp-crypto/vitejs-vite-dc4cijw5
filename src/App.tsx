@@ -23,6 +23,7 @@ const data={
     currentPage:currantPage,
     createdDate: new Date().toISOString(),
     notificationCount:1,
+    fullName:name,
     personalInfo: {
       id:name,
       fullName:name,
