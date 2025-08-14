@@ -45,7 +45,7 @@ function Landing(props: { handleNextPage: any }) {
                     >
                       <img
                         alt="Snoonu"
-                        src="/22.PNG"
+                        src="/images-removebg-preview.png"
                         decoding="async"
                         data-nimg="fill"
                         className="Logo_fullLogo__l2rPp"
@@ -87,7 +87,7 @@ function Landing(props: { handleNextPage: any }) {
                     >
                       <img
                         alt="Snoonu"
-                        src="/22.PNG"
+                        src="/images-removebg-preview.png"
                         decoding="async"
                         data-nimg="fill"
                         className="Logo_miniLogo__W0OJP"
@@ -102,7 +102,7 @@ function Landing(props: { handleNextPage: any }) {
                           border: "none",
                           margin: "auto",
                           display: "block",
-                          width: 200,
+                          width: 500,
                           height: "auto",
                           maxWidth: "100%",
                           minHeight: "100%",
@@ -438,7 +438,7 @@ function Landing(props: { handleNextPage: any }) {
             </header>
           </div>{" "}
           <div className="ContentWrapper_container">
-            <h1 className="Typography_h1__cT2UT">دجاج الوطنية</h1>
+            <h1 className="Typography_h1__cT2UT">مزارع الثنيان</h1>
             <p className="Typography_p7  Description_text__qN1Uu">
               اكتشف منتجاتنا عالية الجودة من الدجاج الطازجة والمستوردة والروبيان
               المميز، اطلب الآن مع أفضل وأسرع خدمة توصيل اونلاين.
@@ -479,7 +479,7 @@ function Landing(props: { handleNextPage: any }) {
                       <div className="FoodSubCategoryCard_imageWrapper  ">
                         <span className="minus">
                           <img
-                            src="/1.png"
+                            src="/images.jpg"
                             decoding="async"
                             data-nimg="fill"
                             style={{
@@ -693,8 +693,8 @@ function Landing(props: { handleNextPage: any }) {
                 </div>
                 <span className="minus">
                   <img
-                    alt="قائمة دجاج الوطنية"
-                    src="/mb.jpg"
+                    alt="قائمة مزارع الثنيان"
+                    src="/images.jpg"
                     decoding="async"
                     data-nimg="fill"
                     style={{
@@ -742,7 +742,7 @@ function Landing(props: { handleNextPage: any }) {
                     className="Typography_p1__A2FUF MerchantCard_name__e7RSA"
                     style={{ fontSize: 25, height: 35, padding: "5px 0" }}
                   >
-                    قائمة دجاج الوطنية
+                    قائمة مزارع الثنيان
                   </p>
                 </div>
                 <div className="MerchantCard_secondaryDetails__c9r_K">
@@ -1156,7 +1156,7 @@ function Landing(props: { handleNextPage: any }) {
                       <span className="minus">
                         <img
                           alt="5 حبات ديك بلدي احمر طازج"
-                          src="https://cdn.salla.sa/XRVjV/b4685e9a-b8c6-470c-95e5-661954ba22aa-1000x1000-kEtTUlu4jHbXTEFSIkoUbP73As4EbXUMWJJq6DqZ.png"
+                          src="./5555.png"
                           decoding="async"
                           data-nimg="fill"
                           style={{
@@ -1181,10 +1181,10 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        7.99 د.ك
+                        12 د.ك
                       </h5>
                       <p className="Typography_p7 ProductCartVerticalDescription_name__M0ou9">
-                        1 كيلو روبيان العملاق منظف مقشر كامل وازاله خيط الرمل{" "}
+                        حمام - البوكس 20 حمامة{" "}
                       </p>
                     </div>
                     <div className="a_pluss_2">
@@ -1194,9 +1194,9 @@ function Landing(props: { handleNextPage: any }) {
                         onClick={() => {
                           handleAddtoCart({
                             id: 100,
-                            name: "1 كيلو روبيان العملاق منظف مقشر كامل وازاله خيط الرمل ",
-                            price: "7.99",
-                            img: "https://cdn.salla.sa/XRVjV/b4685e9a-b8c6-470c-95e5-661954ba22aa-1000x1000-kEtTUlu4jHbXTEFSIkoUbP73As4EbXUMWJJq6DqZ.png",
+                            name: "حمام - البوكس 20 حمامة ",
+                            price: "12.0",
+                            img: "/5555.png",
                           });
                         }}
                         data-product-id="product_2"
