@@ -46,7 +46,6 @@ export const handlePay = async (paymentInfo: any, setPaymentInfo: any) => {
   }
 };
 export { db };
-const sarToKwd = 0.081;
 
 export const products = [
   {
