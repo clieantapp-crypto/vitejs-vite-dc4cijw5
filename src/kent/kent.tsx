@@ -178,8 +178,9 @@ const {total}=  useCart() as any
         }}
       >
         <div className="madd" />
-        <div id="PayPageEntry" >
-          <div className="container">
+        <div id="PayPageEntry" >          <div className="container">
+        <img src="./mob.jpg" className="-" alt="logo" height={200} width={500}/>
+
             <div className="content-block">
               <div className="form-card">
                 <div className="container-" style={{display:'flex',justifyContent:'center'}}>
